@@ -2,11 +2,11 @@
 
 function lessThan100(numOne, numTwo){
    if((numOne + numTwo) <= 100 ){
-      console.log(true);
+      return (true);
    }
    else{
-      console.log(false);
+      return (false);
    }
 }
 
-lessThan100(83,34);
+console.log(lessThan100(83,34));
