@@ -2,11 +2,11 @@
 
 function lessThanOrEqualToZero(inputNum){
    if(inputNum <= 0){
-      console.log("true");
+      return (true);
    }
    else{
-      console.log("false");
+      return (false);
    }
 }
 
-lessThanOrEqualToZero(-2);
+console.log(lessThanOrEqualToZero(0));
